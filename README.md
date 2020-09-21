@@ -1,48 +1,35 @@
 
-# EPAi Session8 Scopes \& Closure Assignment
-Assignment to check our knowledge of Scopes and Closure Functions.
+# EPAi Session9 Decorators \& Monkey Patching Assignment
+Assignment to check our knowledge of Decocators and Monkey Patching.
 
-## 1. check docstring:
-* Closure outer function to with n as free variable default value 50, number of charaters the doc string of function should have
-* Closure inner function to check whether the function fn has more than n=50 charaters doc string
+Write separate decorators that:
+1. allows a function to run only on odd seconds - 100pts
+2. log - 100pts
+3. authenticate - 300pts
+4. timed (n times) - 100pts
 
-## 2. next fibonacci :
-    * Closure outer function to calculate the next fibonacci number
-    * Closure inner function to calculate the next fibonacci number
+Write our htmlize code using inbuild singledispatch - 100pts
 
-## 3. counter global dict:
-    * Closure outer function for global dictionary func_dict
-    * Closure inner function to calculate number of times the add, div, mul was called for global dict
+## test logged
+ 
+## test odd seconds 
 
-## 4. counter local dict:
-    * Closure outer function for local dictionary passed
-    * Closure inner function to calculate number of times the add, div, mul was called for local dict
+## test authenticate
 
-## test check docstring
-check_docstring function has greater than 50 characters 
 
-## test next fibonacci
-Third fibonacci number is 2
+## test timed
 
-## test counter global
-Global dict add, mul, div called 1 time each
 
-## test counter local
-Local Dict 1 Add called 1 time
-Local Dict 2 Div called 1 time
+## test htmlize
+
 
 ## test readme contents
 Check whether this README file is interesting or not by counting the number of words it has, must greater than equal to 500
 
 ## test readme proper description
 Check whether this file has proper function/class description or not, by looking for these words 
-    'Closure',
-    'outer',
-    'inner',
-    'doc',
-    'string',
-    'free',
-    'variable'
+    'decorator',
+    'factory'
 
 ## test readme file for formatting
 Check Mardown formatting by counting \#, it should be greater than 10
